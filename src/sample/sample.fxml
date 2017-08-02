@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="484.0000999999975" prefWidth="440.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Label fx:id="mainscreen" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="50.0" prefHeight="93.0" prefWidth="411.9999000000025" text="0">
+      <font>
+        <Font name="System Bold" size="50.0" />
+      </font>
+    </Label>
+    <Label fx:id="secscreen" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="0.0" prefHeight="50.0" prefWidth="412.0" text="0">
+      <font>
+        <Font size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Button layoutX="14.0" layoutY="172.0" mnemonicParsing="false" onAction="#Actionbut7" prefHeight="48.0" prefWidth="59.0" text="7">
+      <font>
+        <Font size="30.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button font="$x1" layoutX="94.0" layoutY="172.0" mnemonicParsing="false" onAction="#Actionbut8" prefHeight="48.0" prefWidth="59.0" text="8" />
+    <Button font="$x1" layoutX="175.0" layoutY="172.0" mnemonicParsing="false" onAction="#Actionbut9" prefHeight="48.0" prefWidth="59.0" text="9" />
+    <Button font="$x1" layoutX="14.0" layoutY="242.0" mnemonicParsing="false" onAction="#Actionbut4" prefHeight="48.0" prefWidth="59.0" text="4" />
+    <Button font="$x1" layoutX="94.0" layoutY="242.0" mnemonicParsing="false" onAction="#Actionbut5" prefHeight="48.0" prefWidth="59.0" text="5" />
+    <Button font="$x1" layoutX="256.0" layoutY="242.0" mnemonicParsing="false" onAction="#Actionbutmul" prefHeight="53.0" prefWidth="67.0" text="*" />
+    <Button font="$x1" layoutX="175.0" layoutY="313.0" mnemonicParsing="false" onAction="#Actionbut3" prefHeight="48.0" prefWidth="59.0" text="3" />
+    <Button font="$x1" layoutX="94.0" layoutY="313.0" mnemonicParsing="false" onAction="#Actionbut2" prefHeight="48.0" prefWidth="59.0" text="2" />
+    <Button font="$x1" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#Actionbut1" prefHeight="53.0" prefWidth="66.99990000000253" text="1" />
+    <Button font="$x1" layoutX="175.0" layoutY="242.0" mnemonicParsing="false" onAction="#Actionbut6" prefHeight="48.0" prefWidth="59.0" text="6" />
+    <Button font="$x1" layoutX="256.0" layoutY="313.0" mnemonicParsing="false" onAction="#Actionbutneg" prefHeight="53.0" prefWidth="67.00009999999747" text="-" />
+    <Button font="$x1" layoutX="175.0" layoutY="383.0" mnemonicParsing="false" prefHeight="52.999900000002526" prefWidth="67.0" text="." />
+    <Button font="$x1" layoutX="14.0" layoutY="383.0" mnemonicParsing="false" onAction="#Actionbut0" prefHeight="53.0" prefWidth="148.0" text="0" />
+    <Button font="$x2" layoutX="255.0" layoutY="393.0" mnemonicParsing="false" onAction="#Actionbutpos" prefHeight="53.000099999997474" prefWidth="68.0" text="+" />
+    <Button font="$x1" layoutX="256.0" layoutY="170.0" mnemonicParsing="false" onAction="#Actionbutdiv" prefHeight="53.0" prefWidth="67.0" text="/" />
+    <Button font="$x1" layoutX="344.0" layoutY="313.0" mnemonicParsing="false" onAction="#Actionbuteq" prefHeight="125.0" prefWidth="82.0" text="=" />
+    <Button font="$x1" layoutX="344.0" layoutY="242.0" mnemonicParsing="false" onAction="#Actionbutclear" prefHeight="53.0" prefWidth="82.0" text="C" />
+    <Button defaultButton="false" font="$x2" layoutX="344.0" layoutY="170.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="82.0" text="&lt;-" />
+  </children>
+</AnchorPane>
