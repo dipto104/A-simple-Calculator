@@ -22,6 +22,7 @@ public class Main extends Application {
 
 
         scene1 = new Scene(root,440,484);
+        stage.setTitle("12 Digit Calculator");
         stage.setScene(scene1);
         stage.show();
     }
